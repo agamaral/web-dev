@@ -1,0 +1,19 @@
+{
+  "name": "funcionarios",
+  "version": "1.0.0",
+  "description": "mini projeto pra curso js udemy",
+  "main": "funcionarios.js",
+  "scripts": {
+    "start": "nodemon",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "func"
+  ],
+  "author": "antonio",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.1"
+  }
+}
