@@ -20,19 +20,18 @@ const colors = {
             return this.padrao;
         }
     }
-
 }
 document.querySelectorAll('.tag').forEach(elemento => {
 
-        const tagName = elemento.tagName.toLowerCase();
+    const tagName = elemento.tagName.toLowerCase();
 
-        elemento.style.borderColor = colors.get(tagName);
+    elemento.style.borderColor = colors.get(tagName);
 
-        if (!elemento.classList.contains('nolabel')) {
-            const label = document.createElement('label');
-            label.style.backgroundColor = colors.get(tagName);
-            label.innerHTML = tagName;
-            elemento.insertBefore(label, elemento.childNodes[0]);
+    if (!elemento.classList.contains('nolabel')) {
+        const label = document.createElement('label');
+        label.style.backgroundColor = colors.get(tagName);
+        label.innerHTML = tagName;
+        elemento.insertBefore(label, elemento.childNodes[0]);
 
-        }
-    })
+    }
+})
