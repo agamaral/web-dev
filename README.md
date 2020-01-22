@@ -1,2 +1,2 @@
 # estudos-web-moderno
-Repositório para meus estudos sobre web moderno, com JS, HTML 5 e CSS 3, no passo de me tornar um desenvolvedor web.
+Repositório dos meus códigos desenvolvidos durante o curso de desenvolvimento web, ministrado pela Cod3r, com carga horária de 76.5 horas, com HTML, CSS, JavaScript e seus respectivos frameworks. 
