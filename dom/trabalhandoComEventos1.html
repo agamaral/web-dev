@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset='UTF-8'>
     <title>Trabalhando com Eventos #01</title>
     <link rel='stylesheet' href='css/estilo.css'>
 </head>
-
 <body class="conteudo exercicio">
     <div>
-        <a href="https://google.com.br">Google</a>
+        <!-- onclick ="navegarEm5s(event)" -->
+        <a href="https://google.com.br" onclick="navergarEm5s(event)">Google</a>
     </div>
     <script>
-        // ...
+        function navergarEm5s(e) {
+            e.preventDefault()
+            console.log('saindo em 5s...')
+            setTimeout(() => {
+                const link = e.target
+                window.location.href = link.href
+            }, 5000)
+        }
+        // let a = document.querySelector('a')
+        // a.onclick = navegarEm5s
+        let a = document.querySelector('[espera-um-pouco]')
+        a.onclick = navergarEm5s;
     </script>
 </body>
