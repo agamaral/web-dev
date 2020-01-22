@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset='UTF-8'>
     <title>Acessando Classes</title>
     <link rel='stylesheet' href='css/estilo.css'>
 </head>
-
 <body class='conteudo exercicio'>
     <div>
         Classes
     </div>
     <script>
-        // ...
+        const classes = div.classList
+        const div = document.querySelector('div')
+        const classes = document.querySelector('div').classList
+        classe.add('destaque')
+        classes.remove('destaque')
+        console.log(classes.contais('destaque'))
+        console.log(classes.lenght)
+        classes.toggle('destaque')
+        console.log(classes.length)
+        
+
+        for ( let c of classes ) {
+            console.log(c)
+        }
+
+        classes.forEach ( c => console.log(c))
     </script>
 </body>
-
 </html>
