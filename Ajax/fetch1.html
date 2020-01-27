@@ -11,8 +11,8 @@
     <h1>Estados</h1>
 
     <script>
-        let url  = 'dados/estados.json'
-        fetch(url) 
+        let url = 'dados/estados.json'
+        fetch(url)
             .then(resp => resp.json())
             .then(estados => {
                 let itens = estados.reduce(
