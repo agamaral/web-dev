@@ -66,18 +66,32 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/principal.js");
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
-/*!**************************************!*\
-  !*** multi node public/principal.js ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/******/ ({
 
-eval("!(function webpackMissingModule() { var e = new Error(\"Cannot find module \\\"node\\\"\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n!(function webpackMissingModule() { var e = new Error(\"Cannot find module \\\"public/principal.js\\\"\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\n\n//# sourceURL=webpack:///multi_node_public/principal.js?");
+/***/ "./src/pessoa.js":
+/*!***********************!*\
+  !*** ./src/pessoa.js ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = class Pessoa {\r\n    cumprimentar() {\r\n        return 'bom dia!'\r\n    }\r\n}\n\n//# sourceURL=webpack:///./src/pessoa.js?");
+
+/***/ }),
+
+/***/ "./src/principal.js":
+/*!**************************!*\
+  !*** ./src/principal.js ***!
+  \**************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pessoa__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pessoa */ \"./src/pessoa.js\");\n/* harmony import */ var _pessoa__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pessoa__WEBPACK_IMPORTED_MODULE_0__);\n!(function webpackMissingModule() { var e = new Error(\"Cannot find module \\\"./assets/css/estilo.css\\\"\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\r\n\r\n\r\nconst atendente = new _pessoa__WEBPACK_IMPORTED_MODULE_0___default.a;\r\nconsole.log(atendente.cumprimentar())\n\n//# sourceURL=webpack:///./src/principal.js?");
 
 /***/ })
-/******/ ]);
+
+/******/ });
