@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "mini-css-extract-plugin": "0.4.0",
     "css-loeader": "0.28.11",
     "style-loeader": "0.21.0",
     "webpack": "4.8.1",
