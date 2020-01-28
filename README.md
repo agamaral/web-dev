@@ -1,2 +1,2 @@
 # estudos-web-moderno
-Repositório dos meus códigos desenvolvidos durante o curso de desenvolvimento web, ministrado pela Cod3r, com carga horária de 76.5 horas, com HTML, CSS, JavaScript e seus respectivos frameworks. 
+Repositório dos meus códigos desenvolvidos durante o curso de desenvolvimento web, ministrado pela Cod3r, com carga horária de 77 horas, com HTML, CSS, JavaScript e seus respectivos frameworks. 
