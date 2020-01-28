@@ -66,31 +66,18 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/principal.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ "./src/pessoa.js":
-/*!***********************!*\
-  !*** ./src/pessoa.js ***!
-  \***********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("module.exports = class Pessoa {\r\n    cumprimentar() {\r\n        return 'bom dia!'\r\n    }\r\n}\n\n//# sourceURL=webpack:///./src/pessoa.js?");
-
-/***/ }),
-
-/***/ "./src/principal.js":
-/*!**************************!*\
-  !*** ./src/principal.js ***!
-  \**************************/
+/******/ ([
+/* 0 */
+/*!**************************************!*\
+  !*** multi node public/principal.js ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const Pessoa = __webpack_require__(/*! ./pessoa */ \"./src/pessoa.js\")\r\n\r\nconst atendente = new Pessoa;\r\nconsole.log(atendente.cumprimentar())\n\n//# sourceURL=webpack:///./src/principal.js?");
+eval("!(function webpackMissingModule() { var e = new Error(\"Cannot find module \\\"node\\\"\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n!(function webpackMissingModule() { var e = new Error(\"Cannot find module \\\"public/principal.js\\\"\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\n\n//# sourceURL=webpack:///multi_node_public/principal.js?");
 
 /***/ })
-
-/******/ });
+/******/ ]);
