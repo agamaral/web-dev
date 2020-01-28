@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset='UTF-8'>
     <title>Entendendo jQuery</title>
     <link rel='stylesheet' href='css/estilo.css'>
     <script src="js/jquery.js"></script>
 </head>
-
 <body class="conteudo exercicio">
     <h1>Entendendo jQuery</h1>
     <div>1</div>
     <div>2</div>
-
     <script>
-        // ...
+        $('div').hide(5000).show(5000).fadeOut(5000)
+        console.log($('div').get(0)) //obtem o elemento dom
+        console.log($.isEmptyObject({nome: null})); //false
+        console.log(jQuery.inArray(3, [1,2,3])) //retorna 2 (indice);
+
+        $.fn.fundoVerde = function () {
+            this.css('background-color', 'green');
+            return this //retorna o proprio objeto,  fazendo com que eu consiga encadear funcoes nativas do jQuery com funcoes q eu mesmo criei, como no exemplo abaixo!
+        }
+        $('body').fundoVerde().hide(1000); //funcao criada por mim e funcao do jQuery! :)
+
     </script>
 </body>
