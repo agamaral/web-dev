@@ -1,2 +1,2 @@
-# estudos-web-moderno
-Repositório dos meus códigos desenvolvidos durante o curso de desenvolvimento web, ministrado pela Cod3r
+# estudos-web
+Repositório dos meus códigos de desenvolvimento web, com foco em front-end e um pouco de nodejs.
