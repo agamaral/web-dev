@@ -1,2 +1,2 @@
 # web-dev
-Web dev repository, front-end mostly
+My web-dev first steps repository, front-end mostly
